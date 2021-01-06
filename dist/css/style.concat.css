@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 200%;
+}
+
+html {
+    font-size: 62.5%; }
+    @media (min-width: 112.5em) {
+      html {
+        font-size: 75%; } }
+    @media (max-width: 75em) {
+      html {
+        font-size: 56.25%; } }
+    @media (max-width: 56.25em) {
+      html {
+        font-size: 50%; } }
+    @media (max-width: 37.5em) {
+      html {
+        font-size: 40%; } }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+}
+        
+.container {
+  text-align: center;
+  background-color: #55c57a;
+  margin: 5rem;
+  border: 1px solid black;
+  width: 50%;
+  height: 40rem;
+}
+
+.select {
+  padding-top: 3rem;
+  display: inline-block;
+  text-align: left;
+}
+
+.select1 {
+  float: left;
+  padding-left: 15rem;
+}
+
+.btn {
+  width: 7rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.cnvLabel {
+  font-weight: bold;
+}
+
+.Weight {
+  background-color:Chocolate;
+  color: white;
+}
+
+.Area {
+  background-color: yellow;
+  color: black;
+}
+
+.Data {
+  color: white;
+  background-color:black;
+}
+
+.Fuel {
+  background-color: crimson;
+  color: white;
+}
+
+.Length {
+  background-color: deepskyblue;
+  color: black;
+}
+
+.Power {
+  background-color:blueviolet;
+  color: white;
+}
+
+.Pressure {
+  background-color:cornflowerblue;
+  color: white;
+}
+
+.Speed {
+  background-color:lightseagreen;
+  color: white;
+}
+
+.Temperature {
+  background-color: red;
+  color: white;
+}
+
+.Time {
+  background-color:green;
+  color: white;
+}
+
+.Volume {
+  background-color:DarkGoldenrod;
+  color: white;
+}
+
+/*
+$color-primary-light-2: #55c57a;
+$color-primary-dark-2: #28b485;
+$color-green: #7ed56f;
+*/
